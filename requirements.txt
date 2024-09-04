@@ -1,0 +1,8 @@
+opencv-contrib-python
+clique
+ffmpegcv
+opencolorio
+pymongo
+fastapi
+uvicorn
+requests
