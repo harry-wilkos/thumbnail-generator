@@ -1,3 +1,6 @@
+<p align="center"}>
+  <img src="https://pbs.twimg.com/profile_images/1676164710192824320/7kMbNFZG_400x400.jpg">
+ </p> 
 <h1 align="center">ETC Thumbnail Generator</h1>
 <div align="center">
 A http api that finds the most visually interesting frame of a given image sequence or video. Includes options to run on the ETC farm and return a job id untill finished.
