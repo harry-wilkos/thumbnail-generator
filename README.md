@@ -18,6 +18,7 @@
 </div>
 
 ###
+<br clear="both">
 
 
 <h4 align="center">A http api that finds the most visually interesting frame of a given image sequence or video. Includes options to run on the ETC farm and return a job id untill finished.</h4>
