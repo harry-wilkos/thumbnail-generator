@@ -1,29 +1,103 @@
-<p align="center"}>
-  <img src="https://pbs.twimg.com/profile_images/1676164710192824320/7kMbNFZG_400x400.jpg">
- </p> 
 <h1 align="center">ETC Thumbnail Generator</h1>
+
+###
+
 <div align="center">
-A http api that finds the most visually interesting frame of a given image sequence or video. Includes options to run on the ETC farm and return a job id untill finished.
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" height="40" alt="mongodb logo"  />
+  <img width="12" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge" height="40" alt="fastapi logo"  />
 </div>
 
-## Args:
-### Input: strings or list of strings
-File paths to analyse
-#### frame_cap: Int
-The maximum number of frames to process. -1 to remove cap
-#### quality: Float
-Percentage of frames to process (0 - 1)
-#### color_weight: Float
-colour analysis weighting relative to focus. -1 for raw values
-#### focus_weight: Float
-Frame analysis weighting relative to color. -1 for raw values
-#### farm: Bool
-Weather to run the analusis on the farm or locally on the api
-#### priority: Int
-The priority assigned to the job on the farm
-#### db_address: List
-A list made up of a Mongo client address, database name, and collection name to store frama data in
-#### cue_address: List
-A list made up of the ETC cue api submitter address and version
-#### submission_threads: Int
-THe number of threads to use if running locally
+###
+
+<br clear="both">
+
+<h4 align="center">A http api that finds the most visually interesting frame of a given image sequence or video. Includes options to run on the ETC farm and return a job id untill finished.</h4>
+
+###
+
+<h3 align="left">Options:</h3>
+
+###
+
+<h5 align="left">Input - String or List</h5>
+
+###
+
+<p align="left">File paths to analyse</p>
+
+###
+
+<h5 align="left">Frame Cap - Integer</h5>
+
+###
+
+<p align="left">The maximum number of frames to process<br>Negative to remove cap</p>
+
+###
+
+<h5 align="left">Quality - Float</h5>
+
+###
+
+<p align="left">Percentage of frames to process<br>Range between 0 & 1</p>
+
+###
+
+<h5 align="left">Color Weight - Float</h5>
+
+###
+
+<p align="left">Color analysis weighting relative to focus<br>Negative for raw values</p>
+
+###
+
+<h5 align="left">Focus Weight - Float</h5>
+
+###
+
+<p align="left">In-focus weighting relative to color<br>Negative for raw values</p>
+
+###
+
+<h5 align="left">Farm - Boolean</h5>
+
+###
+
+<p align="left">Whether to run on the farm or the api host</p>
+
+###
+
+<h5 align="left">Priority - Integer</h5>
+
+###
+
+<p align="left">The priority of the job sent to the farm</p>
+
+###
+
+<h5 align="left">DB Address - List</h5>
+
+###
+
+<p align="left">A list made of a Mongo client address, database name & collection name to store frame data in</p>
+
+###
+
+<h5 align="left">Cue Address - List</h5>
+
+###
+
+<p align="left">A list made of the ETC cue api submitter & version</p>
+
+###
+
+<h5 align="left">Submission Threads - Integer</h5>
+
+###
+
+<p align="left">The number of threads to use if running on the api host</p>
+
+###
