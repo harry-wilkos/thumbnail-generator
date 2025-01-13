@@ -6,4 +6,4 @@ pymongo
 fastapi
 uvicorn
 requests
-dotenv
+python-dotenv
