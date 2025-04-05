@@ -1,6 +1,6 @@
 <br clear="both">
 
-<img align="left" height="150" src="https://media.licdn.com/dms/image/v2/D4E0BAQEzgNDKRP9w_w/company-logo_200_200/company-logo_200_200/0/1688462390148/electric_theatre_collective_logo?e=1737590400&v=beta&t=zcLr4eBW8HU2bAzNdbYYF_5UkIuRn7mQn-BiLafSQrw"  />
+<img align="left" height="150" src="https://media.licdn.com/dms/image/v2/D4E0BAQEzgNDKRP9w_w/company-logo_200_200/company-logo_200_200/0/1688462390148/electric_theatre_collective_logo?e=1749081600&v=beta&t=fviKH25w_6Arcs5715_Zw6gFzu1VNGKLqbCWUhZjyrM"  />
 
 ###
 
